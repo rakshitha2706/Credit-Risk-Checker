@@ -1,0 +1,34 @@
+{
+  "Sex": {
+    "female": 0,
+    "male": 1
+  },
+  "Housing": {
+    "free": 0,
+    "own": 1,
+    "rent": 2
+  },
+  "Saving accounts": {
+    "little": 0,
+    "moderate": 1,
+    "quite rich": 2,
+    "rich": 3,
+    "nan": 4
+  },
+  "Checking account": {
+    "little": 0,
+    "moderate": 1,
+    "rich": 2,
+    "nan": 3
+  },
+  "Purpose": {
+    "business": 0,
+    "car": 1,
+    "domestic appliances": 2,
+    "education": 3,
+    "furniture/equipment": 4,
+    "radio/TV": 5,
+    "repairs": 6,
+    "vacation/others": 7
+  }
+}
