@@ -117,38 +117,6 @@ Open your browser at **http://localhost:5000**
 
 ---
 
-## 🌐 Deployment
-
-### Deploy on Render (Recommended)
-
-1. Push this project to GitHub
-2. Go to [render.com](https://render.com) → New → Web Service
-3. Connect your GitHub repo
-4. Set **Start Command** to:
-   ```
-   gunicorn app:app
-   ```
-5. Click **Deploy** — live in minutes
-
-### Deploy on Hugging Face Spaces
-
-1. Go to [huggingface.co/new-space](https://huggingface.co/new-space)
-2. Choose **Docker** as the SDK
-3. Upload all project files
-4. Change the last line of `app.py`:
-   ```python
-   app.run(host="0.0.0.0", port=7860)
-   ```
-
-### Local Network (instant sharing)
-
-Change the last line of `app.py`:
-```python
-app.run(host="0.0.0.0", port=5000, debug=False)
-```
-Share your local IP — anyone on the same WiFi can access it.
-
----
 
 ## 📦 Requirements
 
