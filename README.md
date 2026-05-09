@@ -14,7 +14,7 @@ Banks and financial institutions need to assess whether a loan applicant is like
 
 | Metric | Score |
 |--------|-------|
-| Accuracy | 0.7360 |
+| Accuracy | 0.7440 |
 | Precision (Good) | 0.8045 |
 | Recall (Good) | 0.8229 |
 | F1-Score (Good) | 0.8136 |
